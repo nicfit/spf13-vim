@@ -104,13 +104,13 @@
     set mousehide               " Hide the mouse cursor while typing
     scriptencoding utf-8
 
-    if has('clipboard')
-        if has('unnamedplus')  " When possible use + register for copy-paste
-            set clipboard=unnamed,unnamedplus
-        else         " On mac and Windows, use * register for copy-paste
-            set clipboard=unnamed
-        endif
-    endif
+    "if has('clipboard')
+    "    if has('unnamedplus')  " When possible use + register for copy-paste
+    "        set clipboard=unnamed,unnamedplus
+    "    else         " On mac and Windows, use * register for copy-paste
+    "        set clipboard=unnamed
+    "    endif
+    "endif
 
     " Most prefer to automatically switch to the current file directory when
     " a new buffer is opened; to prevent this behavior, add the following to
